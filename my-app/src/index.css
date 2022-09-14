@@ -1,10 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #025159;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1022%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(2%2c 81%2c 89%2c 1)'%3e%3c/rect%3e%3cpath d='M1464 560L0 560 L0 320.09Q18.82 266.91%2c 72 285.74Q114.69 256.43%2c 144 299.12Q246.96 282.08%2c 264 385.04Q314.03 315.07%2c 384 365.1Q413.65 322.75%2c 456 352.4Q529.57 305.97%2c 576 379.54Q585.96 317.5%2c 648 327.46Q719.9 279.36%2c 768 351.26Q781.4 292.66%2c 840 306.06Q863.6 257.65%2c 912 281.25Q994.35 243.6%2c 1032 325.95Q1114.91 288.87%2c 1152 371.78Q1175.8 323.58%2c 1224 347.38Q1257.64 261.02%2c 1344 294.67Q1420.86 251.53%2c 1464 328.39z' fill='rgba(102%2c 67%2c 155%2c 1)'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 385.78Q58.51 372.29%2c 72 430.8Q161.18 399.98%2c 192 489.16Q192.04 417.2%2c 264 417.24Q285.23 366.47%2c 336 387.7Q422.18 353.88%2c 456 440.06Q495.75 359.81%2c 576 399.56Q625.4 328.97%2c 696 378.37Q748.16 358.53%2c 768 410.7Q872.99 395.69%2c 888 500.68Q901.22 441.89%2c 960 455.11Q1001.75 424.87%2c 1032 466.62Q1055.79 418.41%2c 1104 442.2Q1148.48 366.69%2c 1224 411.17Q1268.47 383.64%2c 1296 428.12Q1369.98 382.1%2c 1416 456.08Q1444.64 412.73%2c 1488 441.37z' fill='rgba(146%2c 120%2c 185%2c 1)'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 538.11Q13.79 479.9%2c 72 493.7Q100.66 450.36%2c 144 479.01Q244 459.01%2c 264 559.01Q311.31 534.32%2c 336 581.62Q342.66 516.28%2c 408 522.94Q422.59 465.53%2c 480 480.12Q546.13 426.25%2c 600 492.39Q688.36 508.75%2c 672 597.1Q729.35 534.45%2c 792 591.8Q818.92 498.72%2c 912 525.65Q985.86 479.5%2c 1032 553.36Q1065.24 466.6%2c 1152 499.83Q1205.64 433.47%2c 1272 487.11Q1380.09 475.2%2c 1392 583.29Q1458.13 529.41%2c 1512 595.54z' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1022'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {

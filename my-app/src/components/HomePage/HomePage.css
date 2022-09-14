@@ -1,0 +1,53 @@
+@keyframes zoom {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(-300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.homePage {
+    margin-top: 5rem;
+    width: 90%;
+    height: 70vh;
+    background-color: aliceblue;
+    border: 2px solid whitesmoke;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.imgRickMorty {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: auto;
+}
+
+.txtDeveloper {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    margin: auto;
+}
+
+.imgRickMorty img {
+    animation: zoom 4s infinite alternate;
+    width: 100%;
+}
+
+.txtDeveloper p {
+    font-size: 3rem;
+    font-family: 'Indie Flower', cursive;
+    animation: 5s linear infinite alternate slidein;
+}

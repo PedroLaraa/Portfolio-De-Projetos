@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.botaoNavbar{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.6rem;
+    padding: 1.2rem 1rem;
+    text-align: center;
+}
+
+.botaoNavbar:hover{
+    color: #7EC8D9;
+    text-decoration: underline dotted whitesmoke;
+}

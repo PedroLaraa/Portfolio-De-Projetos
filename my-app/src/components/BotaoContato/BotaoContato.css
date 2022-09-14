@@ -1,0 +1,13 @@
+.botaoContato {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.6rem;
+    padding: 1.2rem 1rem;
+    text-align: center;
+}
+
+.botaoContato:hover{
+    color: #795BA6;
+    text-decoration: underline dotted whitesmoke;
+}
