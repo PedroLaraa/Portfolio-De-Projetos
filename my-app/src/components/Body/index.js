@@ -1,12 +1,23 @@
-import CardDeveloper from '../CardDeveloper';
+
 import HomePage from '../HomePage';
+import Projetos from '../Projetos';
+import Skills from '../Skills';
+
 import './Body.css'
 
 const Body = (props) => {
 
     return(
-        <div className='bodyConteudo'>
-            <HomePage />
+        <div>
+            <div className='bodyConteudoHomePage'>
+                <HomePage />
+            </div>
+            <div id='skills' className='bodyConteudoSkills'>
+                <Skills />
+            </div>
+            <div id='projetos' className='bodyConteudoProjetos'>
+                <Projetos />
+            </div>
         </div>
     );
 };

@@ -2,6 +2,8 @@
     width: 100%;
     background-color: #025159;
     position: fixed;
+    box-shadow: 0px 2px 5px rgb(255, 255, 255);
+    z-index: 999;
 }
 
 .navbarPrincipal div{
@@ -9,9 +11,21 @@
     justify-content: center;
 }
 
-.navbarPrincipal section{
+.navigatorNav{
     display: flex;
     justify-content: center;
     padding: 0 8rem;
 }
 
+.socialMediaNav section{
+    display: flex;
+    justify-content: end;
+}
+
+.socialMediaNav a {
+    padding: 1rem;
+}
+
+.socialMediaNav img{
+    width: 2rem;
+}

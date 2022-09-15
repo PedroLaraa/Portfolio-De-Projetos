@@ -1,0 +1,20 @@
+
+.projetosContainer{
+    padding-top: 10rem;
+}
+
+.projetosContainer h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4rem;
+    color: rgb(201, 201, 201);
+    text-shadow: 0 6px 1px #011719;
+}
+
+.projetosCardContainer {
+    padding-top: 5rem;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}

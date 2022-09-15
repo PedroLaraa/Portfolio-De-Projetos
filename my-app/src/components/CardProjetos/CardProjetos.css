@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+.cardProjetos {
+    width: 280px;
+}
+
+.cardProjetos .cardImg {
+    background-color:  #F0F0F0;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.cardProjetos img {
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -50px;
+}
+
+.cardProjetos .cardInfos {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.cardProjetos .cardInfos h4 {
+    color: #6278F7;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.cardProjetos .cardInfos h5 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #212121;
+    padding: 0 16px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.cardProjetos .cardInfos a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+}

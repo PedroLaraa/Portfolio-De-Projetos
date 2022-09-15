@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 @keyframes zoom {
     0% {
-        transform: scale(0.9);
+        transform: scale(1.4);
     }
 
     100% {
@@ -8,46 +10,74 @@
     }
 }
 
-@keyframes slidein {
+@keyframes zoom-image {
     0% {
-        transform: translateX(-300px);
+        transform: scale(1.6);
     }
+
     100% {
-        transform: translateX(0);
+        transform: scale(1.2);
     }
 }
 
 .homePage {
     margin-top: 5rem;
-    width: 90%;
+    width: 80%;
     height: 70vh;
-    background-color: aliceblue;
-    border: 2px solid whitesmoke;
-    border-radius: 1rem;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto ;
     gap: 10px;
 }
 
 .imgRickMorty {
     grid-row-start: 1;
-    grid-row-end: 2;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
     margin: auto;
 }
 
 .txtDeveloper {
     grid-row-start: 1;
     grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .imgRickMorty img {
-    animation: zoom 4s infinite alternate;
-    width: 100%;
+    width: 110%;
+    animation: linear 6s zoom-image alternate infinite;
+    display: flex;
+    justify-content: center;
 }
 
 .txtDeveloper p {
-    font-size: 3rem;
-    font-family: 'Indie Flower', cursive;
-    animation: 5s linear infinite alternate slidein;
+    width: 50%;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    color: #66439B;
+    text-transform: uppercase;
+    text-shadow: 0 6px 1px rgb(214, 214, 214);
+    animation: linear 12s zoom alternate infinite;
+    margin: 0%;
+}
+
+.btnMoreInfo{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btnMoreInfo a{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
 }
