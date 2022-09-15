@@ -1,4 +1,5 @@
 import Carrossel from '../Carrossel';
+import RangeOfSkills from '../RangeOfSkills';
 import './Skills.css'
 
 const Skills = () => {
@@ -21,6 +22,7 @@ const Skills = () => {
                 alt5='MySql Logo'
                 alt6='Git Logo'
             />
+            <RangeOfSkills andamento='20' />
         </div>
     );
 };

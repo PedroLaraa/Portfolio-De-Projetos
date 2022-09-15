@@ -16,7 +16,7 @@ const Projetos = (props) => {
                     txtImg='Python Logo'
                 />
                 <CardProjetos
-                    imagem='/images/react.png'
+                    imagem='/images/JavaScript.png'
                     tituloProjeto='Curso | WEB Full-Stack'
                     descricaoProjeto='O pontapé inicial da minha carreira de .dev, toda minha base de programação se encontra nesse repo.'
                     link='https://github.com/PedroLaraa/Curso-Desenvolvimento-Web'
