@@ -14,7 +14,8 @@ const Navbar = () => {
                     <BotaoNavbar pagina='home' textoBotao='Home' />
                     <BotaoNavbar pagina='skills' textoBotao='Skills' />
                     <BotaoNavbar pagina='projetos' textoBotao='Projetos' />
-                    <BotaoNavbar pagina='root' textoBotao='Sobre mim' />
+                    <BotaoNavbar pagina='certificados' textoBotao='Certificados' />
+                    <BotaoNavbar pagina='sobre-mim' textoBotao='Sobre mim' />
                     <BotaoContato email={emailContato} texto='Contato' />
                 </section>
                 <div className='socialMediaNav'>

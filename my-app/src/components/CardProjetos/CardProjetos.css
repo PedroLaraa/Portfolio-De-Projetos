@@ -19,14 +19,14 @@
 
 .cardProjetos .cardInfos {
     background: #FFFFFF;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
     border-radius: 0px 0px 10px 10px;
     padding-top: 90px;
     padding-bottom: 40px;
 }
 
 .cardProjetos .cardInfos h4 {
-    color: #6278F7;
+    color: #66439B;
     font-size: 18px;
     line-height: 22px;
     font-weight: bold;
@@ -51,4 +51,5 @@
     font-size: 1.3rem;
     text-transform: uppercase;
     font-family: 'JetBrains Mono', monospace;
+    animation: linear 4s zoomLinkedin alternate infinite;
 }

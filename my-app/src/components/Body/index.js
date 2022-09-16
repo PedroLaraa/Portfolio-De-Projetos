@@ -1,7 +1,9 @@
 
+import Certificados from '../Certificados';
 import HomePage from '../HomePage';
 import Projetos from '../Projetos';
 import Skills from '../Skills';
+import SobreMim from '../SobreMim';
 
 import './Body.css'
 
@@ -17,6 +19,12 @@ const Body = (props) => {
             </div>
             <div id='projetos' className='bodyConteudoProjetos'>
                 <Projetos />
+            </div>
+            <div id='certificados' className='bodyConteudoCertificados'>
+                <Certificados />
+            </div>
+            <div id='sobre-mim' className='bodyConteudoSobreMim'>
+                <SobreMim />
             </div>
         </div>
     );

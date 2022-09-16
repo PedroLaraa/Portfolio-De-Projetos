@@ -1,0 +1,19 @@
+.developerText{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem auto;
+    background-color: #025059ca;
+    border: 2px solid #66439B;
+    border-radius: .5rem;
+}
+
+.developerText p{
+    display: flex;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-align: center;
+}

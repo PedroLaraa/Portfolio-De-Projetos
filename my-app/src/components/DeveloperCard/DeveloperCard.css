@@ -1,0 +1,10 @@
+.developerCard{
+    display: flex;
+    justify-content: center;
+}
+
+.developerCard img{
+    width: 12%;
+    border: 4px solid #66439B;
+    border-radius: 50%;
+}

@@ -1,0 +1,24 @@
+.rangeOfSkills{
+    width: 20rem;
+    
+}
+
+.rangeOfSkills label{
+    color: whitesmoke;
+    text-shadow: 0 2px 1px rgb(92, 92, 92);
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+}
+
+.backgroundAndamento{
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    box-shadow: 0 2px 1px rgb(92, 92, 92);
+    border-radius: .5rem;
+}
+
+.rangeOfSkills section{
+    border: 1px solid whitesmoke;
+    border-radius: .5rem;
+}

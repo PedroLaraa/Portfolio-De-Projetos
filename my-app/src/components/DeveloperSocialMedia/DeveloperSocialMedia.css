@@ -1,0 +1,9 @@
+.developerSocialMediaComponent{
+    display: flex;
+    justify-content: center;
+}
+
+.developerSocialMediaComponent img{
+    width: 2rem;
+    margin: .4rem;
+}
