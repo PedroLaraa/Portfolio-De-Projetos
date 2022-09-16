@@ -8,7 +8,7 @@ const Projetos = (props) => {
             <h1>Projetos & Estudos</h1>
             <div className='projetosCardContainer'>
                 <CardProjetos
-                    imagem='/images/python.png'
+                    imagem='/images/Python.png'
                     tituloProjeto='Detector de rostos'
                     descricaoProjeto='Detector de rostos desenvolvido com python no intuito de aprender mais sobre machine learning.'
                     link='https://github.com/PedroLaraa/Detector-De-Rostos'
@@ -24,7 +24,7 @@ const Projetos = (props) => {
                     txtImg='React Logo'
                 />
                 <CardProjetos
-                    imagem='/images/python.png'
+                    imagem='/images/Python.png'
                     tituloProjeto='Recomendador de músicas'
                     descricaoProjeto='Um recomendador de músicas com base no spotify, feito em um curso da alura usando Machine Learning.'
                     link='https://github.com/PedroLaraa/RECOMENDADOR-DE-MUSICAS'
@@ -32,7 +32,7 @@ const Projetos = (props) => {
                     txtImg='Python Logo'
                 />
                 <CardProjetos
-                    imagem='/images/react.png'
+                    imagem='/images/React.png'
                     tituloProjeto='Organo | Alura'
                     descricaoProjeto='Site desenvolvido para praticar a programação e os padrões utilizados no ReactJs.'
                     link='https://github.com/PedroLaraa/Estudos-React'
