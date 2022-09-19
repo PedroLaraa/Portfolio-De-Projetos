@@ -13,7 +13,7 @@ const HomePage = (props) => {
                 <p>Me chamo Pedro e sou Desenvolvedor Web Full-Stack</p>
             </div>
             <div className='btnMoreInfo'>
-                <a href='#skills' className='btn btn-dark'>Saiba mais...</a>
+                <a href='#sobre-mim' className='btn btn-dark'>Saiba mais...</a>
             </div>
         </div >
     );
