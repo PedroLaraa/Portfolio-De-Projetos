@@ -22,23 +22,23 @@ const CertificadosCard = () => {
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
             txtImg='Logo Alura'
-            tituloProjeto='Machine Learning: Classificação com SKLearn'
-            link='https://cursos.alura.com.br/certificate/679cf3eb-39ab-4262-ab75-2a6952f7ddde'
+            tituloProjeto='Formação Python e orientação a objetos'
+            link='https://cursos.alura.com.br/user/pedro-lara0/degree-Python-linguagem-162571/certificate'
             textoDoLink='Certificado'
             />
             <div className='w-100 pt-4'></div>
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
             txtImg='Logo Alura'
-            tituloProjeto='Clustering aplicado: Recomendando músicas com K-Means'
+            tituloProjeto='Machine Learning: Classificação com SKLearn'
             link='https://cursos.alura.com.br/certificate/679cf3eb-39ab-4262-ab75-2a6952f7ddde'
             textoDoLink='Certificado'
             />
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
             txtImg='Logo Alura'
-            tituloProjeto='Python: Avançando na orientação a objetos'
-            link='https://cursos.alura.com.br/certificate/cf3a12fd-da8d-42aa-962a-bafe3ffd100b'
+            tituloProjeto='Clustering aplicado: Recomendando músicas com K-Means'
+            link='https://cursos.alura.com.br/certificate/679cf3eb-39ab-4262-ab75-2a6952f7ddde'
             textoDoLink='Certificado'
             />
             <CardProjetos 
