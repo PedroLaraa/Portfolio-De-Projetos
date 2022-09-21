@@ -11,6 +11,7 @@ const CardProjetos = (props) => {
                 <h4>{props.tituloProjeto}</h4>
                 <h5>{props.descricaoProjeto}</h5>
                 <a href={props.link}>{props.textoDoLink}</a>
+                <a href={props.linkRepo}>{props.textoDoRepo}</a>
             </div>
         </div>
     );
