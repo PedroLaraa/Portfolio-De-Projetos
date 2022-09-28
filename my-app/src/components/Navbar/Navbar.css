@@ -29,3 +29,13 @@
 .socialMediaNav img{
     width: 2rem;
 }
+
+@media (max-width: 1440px) {
+    .socialMediaNav a {
+        padding: .8rem;
+    }
+    
+    .socialMediaNav img{
+        width: 1.5rem;
+    }
+}

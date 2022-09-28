@@ -14,3 +14,9 @@
     color: #7EC8D9;
     text-decoration: underline dotted whitesmoke;
 }
+
+@media (max-width: 1440px){
+    .botaoNavbar{
+        font-size: 1.1rem;
+    }
+}

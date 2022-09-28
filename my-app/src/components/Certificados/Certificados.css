@@ -36,3 +36,12 @@
     color: rgb(38, 38, 170);
     animation: linear 3s zoomLinkedin alternate infinite;
 }
+
+@media (max-width: 1440px){
+    .certtificadosConteudo h1{
+        font-size: 2.2rem;
+    }
+    .certtificadosConteudo h1 a{
+        font-size: 2.6rem;
+    }
+}

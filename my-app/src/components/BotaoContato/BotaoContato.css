@@ -11,3 +11,9 @@
     color: #795BA6;
     text-decoration: underline dotted whitesmoke;
 }
+
+@media (max-width: 1440px){
+    .botaoContato{
+        font-size: 1.1rem;
+    }
+}

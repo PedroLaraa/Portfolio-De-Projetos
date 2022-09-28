@@ -1,4 +1,5 @@
 import CertificadosCard from '../CertificadosCard';
+
 import './Certificados.css'
 
 const Certificados = () => {
