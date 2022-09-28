@@ -29,7 +29,6 @@ const Skills = () => {
                     alt8='HTML Logo'
                     alt9='CSS Logo'
                 />
-                
             </div>
         </div>
     );
