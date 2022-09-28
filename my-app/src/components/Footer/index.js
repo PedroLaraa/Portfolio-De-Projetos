@@ -9,7 +9,7 @@ const Footer = () => {
                 <section className='infosFooter'>
                     <div>
                         <p>
-                            © 2022 Copyright: Pedro Alves Lara
+                            © 2022 Copyright: Pedro Lara
                         </p>
                     </div>
                 </section>
