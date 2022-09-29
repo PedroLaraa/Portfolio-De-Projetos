@@ -4,7 +4,7 @@ import './CertificadosCard.css'
 const CertificadosCard = () => {
 
     return(
-        <div className='row w-100 justify-content-around'>
+        <div className='row w-100 justify-content-around m-0'>
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
             txtImg='Logo Alura'
@@ -35,7 +35,6 @@ const CertificadosCard = () => {
             textoDoRepo='Repositório'
             className='col'
             />
-            <div className='w-100 pt-4'></div>
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
             txtImg='Logo Alura'
@@ -66,7 +65,6 @@ const CertificadosCard = () => {
             textoDoRepo='Repositório'
             className='col'
             />
-            {/* <div className='w-100 pt-4'></div> */}
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1671667200&v=beta&t=Id3fgRyV0F-UdG_PNbLHb2Zr-bDoXslDCY-7kuWjB9k'
             txtImg='Logo Udemy'
