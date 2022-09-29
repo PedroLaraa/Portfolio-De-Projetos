@@ -22,4 +22,8 @@
     .developerText{
         width: 100%;
     }
+
+    .developerText p{
+        font-size: 1rem;
+    }
 }
