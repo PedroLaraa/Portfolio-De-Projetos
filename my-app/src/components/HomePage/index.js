@@ -20,7 +20,7 @@ const HomePage = (props) => {
             <div className='socialMediaDeveloper'>
                 <DeveloperSocialMedia />
             </div>
-        </div >
+        </div>
     );
 };
 
