@@ -6,6 +6,11 @@
     z-index: 999;
 }
 
+.navbarContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
 .navbarPrincipal div{
     display: flex;
     justify-content: center;
