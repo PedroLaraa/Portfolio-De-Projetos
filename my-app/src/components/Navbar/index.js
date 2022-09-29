@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return(
         <header id='home' className='navbarPrincipal'>
-            <div>
+            <div className='navbarContainer'>
                 <section className='navigatorNav'>
                     <BotaoNavbar pagina='home' textoBotao='Home' />
                     <BotaoNavbar pagina='sobre-mim' textoBotao='Sobre mim' />

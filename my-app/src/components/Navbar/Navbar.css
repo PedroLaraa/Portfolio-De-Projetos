@@ -39,3 +39,21 @@
         width: 1.5rem;
     }
 }
+
+@media (max-width: 955px){
+    .navigatorNav{
+        display: flex;
+        justify-content: start;
+        padding-left: 0%;
+    }
+    .navbarContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 860px) {
+    .navigatorNav{
+        padding: 0%;
+    }
+}

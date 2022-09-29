@@ -81,3 +81,12 @@
     text-transform: uppercase;
     font-family: 'Luckiest Guy', cursive;
 }
+
+@media (max-width: 955px){
+    .imgRickMorty img {
+        width: 90%;
+    }
+    .txtDeveloper p{
+        font-size: 2.4rem;
+    }
+}

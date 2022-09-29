@@ -31,7 +31,6 @@ const Projetos = (props) => {
                     textoDoLink='Repositório GitHub'
                     txtImg='NodeJs Logo'
                 />
-                <div className='w-100 pt-4'></div>
                 <CardProjetos
                     imagem='/images/Python.png'
                     tituloProjeto='Recomendador de músicas'
