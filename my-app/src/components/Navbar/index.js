@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className='navbarContainer'>
                 <section className='navigatorNav'>
                     <BotaoNavbar pagina='home' textoBotao='Home' />
-                    <BotaoNavbar pagina='sobre-mim' textoBotao='Sobre mim' />
+                    <BotaoNavbar pagina='sobre-mim' textoBotao='Sobre' />
                     <BotaoNavbar pagina='skills' textoBotao='Skills' />
                     <BotaoNavbar pagina='projetos' textoBotao='Projetos' />
                     <BotaoNavbar pagina='certificados' textoBotao='Certificados' />

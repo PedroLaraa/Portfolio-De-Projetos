@@ -4,7 +4,7 @@ import './CertificadosCard.css'
 const CertificadosCard = () => {
 
     return(
-        <div className='w-100 row justify-content-around'>
+        <div className='row w-100 justify-content-around'>
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
             txtImg='Logo Alura'
@@ -13,6 +13,7 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Estudos-React'
             textoDoRepo='Repositório'
+            className='col'
             />
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
@@ -22,6 +23,7 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Api-NodeJs-Sequelize-MySql'
             textoDoRepo='Repositório'
+            className='col'
             />
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
@@ -31,6 +33,7 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Api-Rest-Express-MongoDB'
             textoDoRepo='Repositório'
+            className='col'
             />
             <div className='w-100 pt-4'></div>
             <CardProjetos 
@@ -41,6 +44,7 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Curso-MachineLearning-Alura'
             textoDoRepo='Repositório'
+            className='col'
             />
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
@@ -50,6 +54,7 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Recomendador-De-Musicas'
             textoDoRepo='Repositório'
+            className='col'
             />
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
@@ -59,8 +64,9 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Curso-MachineLearning-Alura/tree/main/DadosMuitasDimensoes'
             textoDoRepo='Repositório'
+            className='col'
             />
-            <div className='w-100 pt-4'></div>
+            {/* <div className='w-100 pt-4'></div> */}
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQFQr9e68bBOPQ/company-logo_100_100/0/1626275253364?e=1671667200&v=beta&t=Id3fgRyV0F-UdG_PNbLHb2Zr-bDoXslDCY-7kuWjB9k'
             txtImg='Logo Udemy'
@@ -69,6 +75,7 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Curso-Desenvolvimento-Web'
             textoDoRepo='Repositório'
+            className='col'
             />
             <CardProjetos 
             imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
@@ -78,15 +85,7 @@ const CertificadosCard = () => {
             textoDoLink='Certificado'
             linkRepo='https://github.com/PedroLaraa/Curso-Python'
             textoDoRepo='Repositório'
-            />
-            <CardProjetos 
-            imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
-            txtImg='Logo Alura'
-            tituloProjeto='HTTP: Entendendo a web por baixo dos panos'
-            link='https://cursos.alura.com.br/user/pedro-lara0/course/http-fundamentos/certificate'
-            textoDoLink='Certificado'
-            linkRepo=''
-            textoDoRepo=''
+            className='col'
             />
         </div>
     )

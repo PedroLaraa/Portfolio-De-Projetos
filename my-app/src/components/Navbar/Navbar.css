@@ -53,6 +53,10 @@
 }
 
 @media (max-width: 860px) {
+    .navbarPrincipal{
+        width: 100%;
+    }
+
     .navigatorNav{
         padding: 0%;
     }

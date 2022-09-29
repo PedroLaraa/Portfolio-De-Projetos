@@ -14,6 +14,7 @@ const Projetos = (props) => {
                     link='https://github.com/PedroLaraa/Detector-De-Rostos'
                     textoDoLink='Repositório GitHub'
                     txtImg='Python Logo'
+                    className='col'
                 />
                 <CardProjetos
                     imagem='/images/NodeJs.png'
@@ -22,6 +23,7 @@ const Projetos = (props) => {
                     link='https://github.com/PedroLaraa/Api-NodeJs-Sequelize-MySql'
                     textoDoLink='Repositório GitHub'
                     txtImg='React Logo'
+                    className='col'
                 />
                 <CardProjetos
                     imagem='/images/NodeJs.png'
@@ -30,6 +32,7 @@ const Projetos = (props) => {
                     link='https://github.com/PedroLaraa/Api-Rest-Express-MongoDB'
                     textoDoLink='Repositório GitHub'
                     txtImg='NodeJs Logo'
+                    className='col'
                 />
                 <CardProjetos
                     imagem='/images/Python.png'
@@ -38,6 +41,7 @@ const Projetos = (props) => {
                     link='https://github.com/PedroLaraa/RECOMENDADOR-DE-MUSICAS'
                     textoDoLink='Repositório GitHub'
                     txtImg='Python Logo'
+                    className='col'
                 />
                 <CardProjetos
                     imagem='/images/React.png'
@@ -46,6 +50,7 @@ const Projetos = (props) => {
                     link='https://github.com/PedroLaraa/Estudos-React'
                     textoDoLink='Repositório GitHub'
                     txtImg='React Logo'
+                    className='col'
                 />
                 <CardProjetos
                     imagem='/images/JavaScript.png'
@@ -54,6 +59,7 @@ const Projetos = (props) => {
                     link='https://github.com/PedroLaraa/Curso-Desenvolvimento-Web'
                     textoDoLink='Repositório GitHub'
                     txtImg='React Logo'
+                    className='col'
                 />
             </div>
         </div>
