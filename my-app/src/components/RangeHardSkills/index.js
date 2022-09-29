@@ -5,7 +5,7 @@ import RangeOfSkills from '../RangeOfSkills'
 const RangeHardSkills = () => {
 
     return (
-        <div className='w-100 row justify-content-around pb-5'>
+        <div className='w-100 row justify-content-around pb-5 m-0'>
             <RangeOfSkills className='col' skill='• JavaScript' andamento='70' backgroundColor='#FFD637' ></RangeOfSkills>
             <RangeOfSkills className='col' skill='• React' andamento='60' backgroundColor='#61DAFB' ></RangeOfSkills>
             <RangeOfSkills className='col' skill='• NodeJs' andamento='50' backgroundColor='#3E863D' ></RangeOfSkills>
