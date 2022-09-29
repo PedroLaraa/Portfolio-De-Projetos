@@ -11,7 +11,7 @@ const Certificados = () => {
                 <CertificadosCard />
             </section>
             <h1>Demais certificados aqui: 
-                <a href='https://www.linkedin.com/in/pedro-lara-497723176/details/certifications/' >Linkedin</a>
+                <a id='certificadosLinkedin' href='https://www.linkedin.com/in/pedro-lara-497723176/details/certifications/' >Linkedin</a>
             </h1>
         </div>
     );

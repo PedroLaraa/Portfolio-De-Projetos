@@ -31,21 +31,36 @@
     padding-bottom: 5rem;
 }
 
-.certtificadosConteudo h1 a{
+#certificadosLinkedin{
     text-decoration: none;
     color: rgb(38, 38, 170);
     animation: linear 3s zoomLinkedin alternate infinite;
+    font-size: 4rem;
 }
 
 @media (max-width: 1440px){
     .certtificadosConteudo h1{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
-    .certtificadosConteudo h1 a{
-        font-size: 2.6rem;
+    #certificadosLinkedin{
+        font-size: 2rem;
     }
 }
 
-@media (max-width: 860px) {
-    
+@media (max-width: 570px) {
+    .certtificadosConteudo h1{
+        font-size: 1.4rem;
+    }
+    #certificadosLinkedin {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .certtificadosConteudo h1{
+        font-size: 1rem;
+    }
+    #certificadosLinkedin {
+        font-size: 1rem;
+    }
 }

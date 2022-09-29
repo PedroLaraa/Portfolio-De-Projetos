@@ -23,5 +23,11 @@
         font-size: 1rem;
         padding: 1.2rem .3rem;
     }
-    
+}
+
+@media (max-width: 350px){
+    .botaoContato{
+        font-size: .9rem;
+        padding: 1rem .2rem;
+    }
 }

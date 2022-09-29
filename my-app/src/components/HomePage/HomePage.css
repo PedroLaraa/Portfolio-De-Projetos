@@ -137,3 +137,9 @@
         font-size: 2rem;
     }
 }
+
+@media (max-width: 420px) {
+    .txtDeveloper p{
+        font-size: 1.6rem;
+    }
+}
