@@ -22,3 +22,9 @@
     border: 1px solid whitesmoke;
     border-radius: .5rem;
 }
+
+@media (max-width: 768px){
+    .rangeOfSkills{
+        width: 15rem;
+    }
+}

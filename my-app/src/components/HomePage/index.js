@@ -1,5 +1,7 @@
 import './HomePage.css'
 
+import DeveloperSocialMedia from '../DeveloperSocialMedia';
+
 const HomePage = (props) => {
 
 
@@ -14,6 +16,9 @@ const HomePage = (props) => {
             </div>
             <div className='btnMoreInfo'>
                 <a href='#sobre-mim' className='btn btn-dark'>Saiba mais...</a>
+            </div>
+            <div className='socialMediaDeveloper'>
+                <DeveloperSocialMedia />
             </div>
         </div >
     );

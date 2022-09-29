@@ -38,3 +38,15 @@
     width: 100%;
     padding-top: 10rem ;
 }
+
+@media (max-width: 768px){
+    .carouselSliderDiv h1{
+        font-size: 3rem;
+    }
+
+    .imgHardSkills{
+        width: 150px;
+        height: 150px;
+        padding: 4px;
+    }
+}

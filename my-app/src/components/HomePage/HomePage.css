@@ -82,6 +82,10 @@
     font-family: 'Luckiest Guy', cursive;
 }
 
+.socialMediaDeveloper{
+    display: none;
+}
+
 @media (max-width: 955px){
 
     .imgRickMorty {
@@ -138,8 +142,25 @@
     }
 }
 
+@media (max-width: 661px) {
+    .socialMediaDeveloper{
+        display: block;
+        grid-row-start: 5;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        display: flex;
+        justify-content: center;
+    }
+}
+
 @media (max-width: 420px) {
     .txtDeveloper p{
         font-size: 1.6rem;
     }
+
+    .imgRickMorty img {
+        width: 75%;
+    }
 }
+
