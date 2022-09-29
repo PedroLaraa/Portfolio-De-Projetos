@@ -17,3 +17,9 @@
     color: whitesmoke;
     text-align: center;
 }
+
+@media (max-width: 650px) {
+    .developerText{
+        width: 100%;
+    }
+}

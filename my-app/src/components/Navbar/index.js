@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return(
         <header id='home' className='navbarPrincipal'>
-            <div className='navbarContainer'>
+            <nav className='navbarContainer navbar navbar-expand-lg'>
                 <section className='navigatorNav'>
                     <BotaoNavbar pagina='home' textoBotao='Home' />
                     <BotaoNavbar pagina='sobre-mim' textoBotao='Sobre' />
@@ -25,7 +25,7 @@ const Navbar = () => {
                         <a href='https://www.instagram.com/pedrinlara_'><img src='/images/instagram.png' alt='Instagram Logo'/></a>
                     </section>
                 </div> 
-            </div>
+            </nav>
         </header>
     )
 
