@@ -85,6 +85,16 @@ const CertificadosCard = () => {
             textoDoRepo='Repositório'
             className='col'
             />
+            <CardProjetos 
+            imagem='https://media-exp1.licdn.com/dms/image/C4D0BAQHnFDuaYnscdQ/company-logo_100_100/0/1658433175874?e=1671667200&v=beta&t=LHRDLnX22EsIj9c8PjSH_I59U0FDlNJFh4AgAoeP870'
+            txtImg='Logo Alura'
+            tituloProjeto='Angular 14: Aplique os conceitos e desenvolvs seu primeiro CRUD'
+            link='https://cursos.alura.com.br/certificate/e2a0fd4b-f0b3-42a9-822a-a2725b0872ca'
+            textoDoLink='Certificado'
+            linkRepo='https://github.com/PedroLaraa/Biblioteca-Com-Angular'
+            textoDoRepo='Repositório'
+            className='col'
+            />
         </div>
     )
 

@@ -19,6 +19,7 @@ const Carrossel = (props) => {
         <img className='imgHardSkills' src={props.caminhoImagem3} alt={props.alt3} onDragStart={handleDragStart} role="presentation" width='250px' height='250px' />,
         <img className='imgHardSkills' src={props.caminhoImagem4} alt={props.alt4} onDragStart={handleDragStart} role="presentation" width='250px' height='250px' />,
         <img className='imgHardSkills' src={props.caminhoImagem5} alt={props.alt5} onDragStart={handleDragStart} role="presentation" width='250px' height='250px' />,
+        <img className='imgHardSkills' src={props.caminhoImagem10} alt={props.alt10} onDragStart={handleDragStart} role="presentation" width='250px' height='250px' />,
         <img className='imgHardSkills' src={props.caminhoImagem6} alt={props.alt6} onDragStart={handleDragStart} role="presentation" width='250px' height='250px' />,
         <img className='imgHardSkills' src={props.caminhoImagem7} alt={props.alt7} onDragStart={handleDragStart} role="presentation" width='250px' height='250px' />,
         <img className='imgHardSkills' src={props.caminhoImagem8} alt={props.alt8} onDragStart={handleDragStart} role="presentation" width='250px' height='250px' />,

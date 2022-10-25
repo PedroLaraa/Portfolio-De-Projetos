@@ -4,8 +4,6 @@ import './Skills.css'
 
 const Skills = () => {
 
-
-
     return (
         <div className='skillsContainer'>
             <div className='skillsCarousel'>
@@ -19,6 +17,7 @@ const Skills = () => {
                     caminhoImagem7='/images/Bootstrap.png'
                     caminhoImagem8='/images/Html.png'
                     caminhoImagem9='/images/Css.png'
+                    caminhoImagem10='/images/Angular.png'
                     alt1='JavaScript Logo'
                     alt2='React Logo'
                     alt3='NodeJs Logo'
@@ -28,6 +27,7 @@ const Skills = () => {
                     alt7='Bootstrap Logo'
                     alt8='HTML Logo'
                     alt9='CSS Logo'
+                    alt10='Angular Logo'
                 />
             </div>
         </div>

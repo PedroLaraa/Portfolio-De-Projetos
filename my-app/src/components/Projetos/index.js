@@ -54,10 +54,19 @@ const Projetos = (props) => {
                 />
                 <CardProjetos
                     className='col'
-                    imagem='/images/JavaScript.png'
-                    tituloProjeto='Curso | WEB Full-Stack'
-                    descricaoProjeto='O pontapé inicial da minha carreira de .dev, toda minha base de programação se encontra nesse repo.'
-                    link='https://github.com/PedroLaraa/Curso-Desenvolvimento-Web'
+                    imagem='/images/Angular.png'
+                    tituloProjeto='Memoteca'
+                    descricaoProjeto='Projeto desenvolvido com objetivo de dar os primeiros passos utilizando o Framework Angular.'
+                    link='https://github.com/PedroLaraa/Biblioteca-Com-Angular'
+                    textoDoLink='Repositório GitHub'
+                    txtImg='React Logo'
+                />
+                <CardProjetos
+                    className='col'
+                    imagem='/images/React.png'
+                    tituloProjeto='Bumblebee Cars'
+                    descricaoProjeto='Orçamentos automáticos com condições pré definidas conforme especificado no repo do GitHub '
+                    link='https://github.com/PedroLaraa/Bumblebee-Orcamentos-Carros'
                     textoDoLink='Repositório GitHub'
                     txtImg='React Logo'
                 />
