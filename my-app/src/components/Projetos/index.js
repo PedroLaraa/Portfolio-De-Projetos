@@ -9,12 +9,36 @@ const Projetos = (props) => {
             <div className='projetosCardContainer row'>
                 <CardProjetos
                     className='col'
-                    imagem='/images/Python.png'
-                    tituloProjeto='Detector de rostos'
-                    descricaoProjeto='Detector de rostos desenvolvido com python no intuito de aprender mais sobre machine learning.'
-                    link='https://github.com/PedroLaraa/Detector-De-Rostos'
-                    textoDoLink='Repositório GitHub'
-                    txtImg='Python Logo'
+                    imagem='/images/React.png'
+                    tituloProjeto='Weather Map'
+                    descricaoProjeto="Previsão do tempo em 1 Click. Projeto desenvolvido com o intuito de consumir API's!"
+                    link='https://weather-map-seven.vercel.app'
+                    textoDoLink='Deploy'
+                    linkRepo='https://github.com/PedroLaraa/Weather-Map'
+                    textoDoRepo='Repositório GitHub'
+                    txtImg='React Logo'
+                />
+                <CardProjetos
+                    className='col'
+                    imagem='/images/React.png'
+                    tituloProjeto='Organo | Alura'
+                    descricaoProjeto='Site desenvolvido para praticar a programação e os padrões utilizados no ReactJs.'
+                    link='https://estudos-react-eight.vercel.app'
+                    textoDoLink='Deploy'
+                    linkRepo='https://github.com/PedroLaraa/Estudos-React'
+                    textoDoRepo='Repositório GitHub'
+                    txtImg='React Logo'
+                />
+                <CardProjetos
+                    className='col'
+                    imagem='/images/React.png'
+                    tituloProjeto='Bumblebee Cars'
+                    descricaoProjeto='Orçamentos automáticos com condições pré definidas conforme especificado no repo do GitHub '
+                    link='https://bumblebee-carros.vercel.app'
+                    textoDoLink='Deploy'
+                    linkRepo='https://github.com/PedroLaraa/Bumblebee-Orcamentos-Carros'
+                    textoDoRepo='Repositório GitHub'
+                    txtImg='React Logo'
                 />
                 <CardProjetos
                     className='col'
@@ -36,39 +60,33 @@ const Projetos = (props) => {
                 />
                 <CardProjetos
                     className='col'
+                    imagem='/images/Angular.png'
+                    tituloProjeto='Memoteca'
+                    descricaoProjeto='Projeto desenvolvido com objetivo de dar os primeiros passos utilizando o Framework Angular.'
+                    link='https://formacao-angular.vercel.app'
+                    textoDoLink='Deploy'
+                    linkRepo='https://github.com/PedroLaraa/Biblioteca-Com-Angular'
+                    textoDoRepo='Repositório GitHub'
+                    txtImg='React Logo'
+                />
+                <CardProjetos
+                    className='col'
                     imagem='/images/Python.png'
                     tituloProjeto='Recomendador de músicas'
                     descricaoProjeto='Um recomendador de músicas com base no spotify, feito em um curso da alura usando Machine Learning.'
-                    link='https://github.com/PedroLaraa/RECOMENDADOR-DE-MUSICAS'
-                    textoDoLink='Repositório GitHub'
+                    
+                    linkRepo='https://github.com/PedroLaraa/RECOMENDADOR-DE-MUSICAS'
+                    textoDoRepo='Repositório GitHub'
                     txtImg='Python Logo'
                 />
                 <CardProjetos
                     className='col'
-                    imagem='/images/React.png'
-                    tituloProjeto='Organo | Alura'
-                    descricaoProjeto='Site desenvolvido para praticar a programação e os padrões utilizados no ReactJs.'
-                    link='https://github.com/PedroLaraa/Estudos-React'
+                    imagem='/images/Python.png'
+                    tituloProjeto='Detector de rostos'
+                    descricaoProjeto='Detector de rostos desenvolvido com python no intuito de aprender mais sobre machine learning.'
+                    link='https://github.com/PedroLaraa/Detector-De-Rostos'
                     textoDoLink='Repositório GitHub'
-                    txtImg='React Logo'
-                />
-                <CardProjetos
-                    className='col'
-                    imagem='/images/Angular.png'
-                    tituloProjeto='Memoteca'
-                    descricaoProjeto='Projeto desenvolvido com objetivo de dar os primeiros passos utilizando o Framework Angular.'
-                    link='https://github.com/PedroLaraa/Biblioteca-Com-Angular'
-                    textoDoLink='Repositório GitHub'
-                    txtImg='React Logo'
-                />
-                <CardProjetos
-                    className='col'
-                    imagem='/images/React.png'
-                    tituloProjeto='Bumblebee Cars'
-                    descricaoProjeto='Orçamentos automáticos com condições pré definidas conforme especificado no repo do GitHub '
-                    link='https://github.com/PedroLaraa/Bumblebee-Orcamentos-Carros'
-                    textoDoLink='Repositório GitHub'
-                    txtImg='React Logo'
+                    txtImg='Python Logo'
                 />
             </div>
         </div>
