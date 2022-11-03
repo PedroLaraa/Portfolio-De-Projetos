@@ -2,7 +2,7 @@
     width: 100%;
     background-color: #025159;
     position: fixed;
-    box-shadow: 0px 2px 5px rgb(255, 255, 255);
+    box-shadow: 0px 1px 5px rgb(255, 255, 255);
     z-index: 999;
 }
 

@@ -21,7 +21,6 @@ const RangeHardSkills = () => {
             <RangeOfSkills className='col' skill='• CSS' andamento='80' backgroundColor='#264DE4' ></RangeOfSkills>
         </div>
     )
-
 }
 
 export default RangeHardSkills
