@@ -18,6 +18,7 @@ const Skills = () => {
                     caminhoImagem8='/images/Html.png'
                     caminhoImagem9='/images/Css.png'
                     caminhoImagem10='/images/Angular.png'
+                    caminhoImagem11='/images/TypeScript.png'
                     alt1='JavaScript Logo'
                     alt2='React Logo'
                     alt3='NodeJs Logo'
@@ -28,6 +29,7 @@ const Skills = () => {
                     alt8='HTML Logo'
                     alt9='CSS Logo'
                     alt10='Angular Logo'
+                    alt11='TypeScript Logo'
                 />
             </div>
         </div>

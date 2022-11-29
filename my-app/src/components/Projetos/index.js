@@ -9,6 +9,24 @@ const Projetos = (props) => {
             <div className='projetosCardContainer row'>
                 <CardProjetos
                     className='col'
+                    imagem='/images/TypeScript.png'
+                    tituloProjeto='NGCash | Front-End - TSX & Axios'
+                    descricaoProjeto='Front-End desenvolvido para teste de Júnior na empresa NGCash, para mais infos, acesse o repositório!'
+                    linkRepo='https://github.com/PedroLaraa/NGCash-FrontEnd'
+                    textoDoRepo='Repositório GitHub'
+                    txtImg='React Logo'
+                />
+                <CardProjetos
+                    className='col'
+                    imagem='/images/TypeScript.png'
+                    tituloProjeto='NGCash | Back-End - TypeORM & Postgres'
+                    descricaoProjeto='Back-End desenvolvido para teste de Júnior na empresa NGCash, para mais infos, acesse o repositório!'
+                    link='https://github.com/PedroLaraa/NGCash-Backend'
+                    textoDoLink='Repositório GitHub'
+                    txtImg='TypeScript Logo'
+                />
+                <CardProjetos
+                    className='col'
                     imagem='/images/React.png'
                     tituloProjeto='Weather Map'
                     descricaoProjeto="Previsão do tempo em 1 Click. Projeto desenvolvido com o intuito de consumir API's!"
@@ -21,22 +39,11 @@ const Projetos = (props) => {
                 <CardProjetos
                     className='col'
                     imagem='/images/React.png'
-                    tituloProjeto='Organo | Alura'
-                    descricaoProjeto='Site desenvolvido para praticar a programação e os padrões utilizados no ReactJs.'
-                    link='https://estudos-react-eight.vercel.app'
-                    textoDoLink='Deploy'
-                    linkRepo='https://github.com/PedroLaraa/Estudos-React'
-                    textoDoRepo='Repositório GitHub'
-                    txtImg='React Logo'
-                />
-                <CardProjetos
-                    className='col'
-                    imagem='/images/React.png'
-                    tituloProjeto='Bumblebee Cars'
+                    tituloProjeto='Url Short'
                     descricaoProjeto='Orçamentos automáticos com condições pré definidas conforme especificado no repo do GitHub '
-                    link='https://bumblebee-carros.vercel.app'
+                    link='https://url-short-phi.vercel.app'
                     textoDoLink='Deploy'
-                    linkRepo='https://github.com/PedroLaraa/Bumblebee-Orcamentos-Carros'
+                    linkRepo='https://github.com/PedroLaraa/Url-Short'
                     textoDoRepo='Repositório GitHub'
                     txtImg='React Logo'
                 />
@@ -74,7 +81,7 @@ const Projetos = (props) => {
                     imagem='/images/Python.png'
                     tituloProjeto='Recomendador de músicas'
                     descricaoProjeto='Um recomendador de músicas com base no spotify, feito em um curso da alura usando Machine Learning.'
-                    
+
                     linkRepo='https://github.com/PedroLaraa/RECOMENDADOR-DE-MUSICAS'
                     textoDoRepo='Repositório GitHub'
                     txtImg='Python Logo'
